@@ -12,4 +12,6 @@ $docker push your_username/sample-nodejs-app:latest
 Verify in Dockerhub    
    
 #Run    
-$docker container run -d --name c1 -p 80:8080 your_username/sample-nodejs-app    
+$docker container run -d --name c1 -p 80:8080 your_username/sample-nodejs-app   
+$docker ps 
+
